@@ -1,9 +1,16 @@
 class Date{
 
-private int year;
-private int month;
-private int day;
+	private int year;
+	private int month;
+	private int day;
 
+	stringBuffer=new stringBuffer() throws Exception();
+	boolean isSameYear (Date otherDate){
+		if (this.year==otherDate.getYear){
+			return true;
+		}else{
+			return false;
+		}
 	public Date (int year, int month, int day){
 	
 	switch (month){
